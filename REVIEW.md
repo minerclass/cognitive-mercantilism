@@ -90,7 +90,7 @@ The two DOI-bearing references passed registry metadata verification. That resul
 | Sections 2.6–2.7, glossary | Generate safe text nodes rather than injecting arbitrary data strings as HTML. A glossary term can occur inside a source label or heading; avoid nested interactive elements and give repeated definitions unique IDs. Escape should return focus to the triggering term. |
 | Section 2.7, navigation | Hash navigation with `aria-current` fits page-style views. Use ordinary navigation links unless implementing the complete keyboard and ARIA behavior of a tab widget. Hidden views must also leave the focus order. |
 | Section 2.8, validation | Add screen-reader checks, zoom/reflow, disabled-storage behavior, and privacy checks. Test no external requests during ordinary use; source links can open external pages only when deliberately followed. |
-| Section 2.3, license | The spec explicitly leaves this to the author. Select licensing for original text and any future code deliberately, with third-party quotations identified. No license is added by this review. |
+| Section 2.3, license | The original spec left licensing open. Following the repository review, the requested license was added as MIT for original project material; third-party quotations retain their existing rights. See `LICENSE` and the README. |
 
 ## Suggested next steps
 

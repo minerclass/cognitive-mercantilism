@@ -45,4 +45,4 @@ The analogy offers a way to question exclusionary assumptions. It does not estab
 
 ## Rights
 
-No license has been selected. Third-party quotations and materials remain subject to their owners' rights. A code license and a decision about the original workshop text can be added when the author chooses them.
+Original project material is available under the [MIT License](LICENSE), copyright 2026 Micah J. Miner. Third-party quotations and materials remain subject to their owners' rights and are not relicensed by this repository.
