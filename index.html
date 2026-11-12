@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive field guide for discussing cognitive mercantilism, AI access, protective limits and learning in schools. By Micah J. Miner.">
+  <meta name="color-scheme" content="light dark">
+  <title>Scarcity or Access? · AI in Schools</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="data/glossary.js" defer></script>
+  <script src="data/worldviews.js" defer></script>
+  <script src="data/scenarios.js" defer></script>
+  <script src="data/beliefs.js" defer></script>
+  <script src="data/sources.js" defer></script>
+  <script src="assets/js/terms.js" defer></script>
+  <script src="assets/js/primer.js" defer></script>
+  <script src="assets/js/then-and-now.js" defer></script>
+  <script src="assets/js/sorter.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="masthead wrap">
+      <a class="wordmark" href="#start"><span class="brand-mark" aria-hidden="true">S<span>/</span>A</span><span>SCARCITY OR ACCESS?<small>A field guide to AI in schools</small></span></a>
+      <div class="display-controls" aria-label="Display preferences">
+        <button id="theme-toggle" type="button" aria-pressed="false">Dark theme</button>
+        <button id="text-toggle" type="button" aria-pressed="false"><span aria-hidden="true">A↗</span> Large text</button>
+      </div>
+    </div>
+    <div class="nav-line"><nav class="wrap primary-nav" aria-label="Guide sections">
+      <a href="#start" aria-current="page"><span>01</span> Start here</a>
+      <a href="#then-and-now"><span>02</span> Then &amp; now</a>
+      <a href="#sorter"><span>03</span> Guardrail or gate?</a>
+      <a href="#sources"><span>04</span> Sources &amp; caveats</a>
+      <a href="#glossary"><span>05</span> Glossary</a>
+    </nav></div>
+    <div class="wrap legend" aria-label="Two perspectives">
+      <span class="scarcity-text"><svg class="lock" viewBox="0 0 20 20" aria-hidden="true"><path d="M6 9V6a4 4 0 0 1 8 0v3M4 9h12v9H4z"/></svg><strong>Scarcity</strong><span>Keep it scarce, hold it close</span></span>
+      <span class="access-text"><svg class="lock" viewBox="0 0 20 20" aria-hidden="true"><path d="M8 9V6a4 4 0 0 1 8 0M4 9h12v9H4z"/></svg><strong>Access</strong><span>Open it up, protect people</span></span>
+    </div>
+  </header>
+  <main id="main" class="wrap" tabindex="-1">
+    <noscript><p class="notice">This interactive guide needs JavaScript. The <a href="CONCEPT.md">original concept</a> is also available to read.</p></noscript>
+    <section id="start" class="view" aria-labelledby="start-heading">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">01 / THE IDEA · A WORKSHOP FIELD GUIDE</p>
+          <h1 id="start-heading" tabindex="-1">Scarcity<br>or <em>access?</em></h1>
+          <p class="hero-deck">Who gets to think with AI?<br>And what are our limits protecting?</p>
+          <p class="byline">Cognitive mercantilism and AI in schools<br><strong>Micah J. Miner</strong></p>
+          <a class="button primary" href="#then-and-now">Explore the comparison <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-art">
+          <svg viewBox="0 0 500 360" role="img" aria-labelledby="vault-title vault-desc">
+            <title id="vault-title">From a locked treasury to shared possibilities</title>
+            <desc id="vault-desc">A locked vault represents guarded wealth. Lines extend toward open circles representing broader access. This is the workshop's analogy.</desc>
+            <defs><pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="currentColor" opacity=".14"/></pattern></defs>
+            <rect width="500" height="360" fill="url(#dots)"/>
+            <g class="art-scarcity" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="38" y="80" width="202" height="202" rx="4"/><rect x="53" y="95" width="172" height="172" rx="2"/>
+              <circle cx="139" cy="181" r="52"/><circle cx="139" cy="181" r="10"/>
+              <path d="M139 129v42m0 20v42m-52-52h42m20 0h42m-89-37 30 30m14 14 30 30m-74 0 30-30m14-14 30-30"/>
+              <path d="M66 124h-8m8 114h-8" stroke-width="8"/>
+            </g>
+            <g class="art-access" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M257 181h46m-7-6 7 6-7 6M324 181l68-85m-68 85 105-1m-105 1 68 83"/>
+              <circle cx="324" cy="181" r="20" fill="var(--paper)"/><circle cx="407" cy="78" r="26" fill="var(--paper)"/><circle cx="454" cy="181" r="26" fill="var(--paper)"/><circle cx="407" cy="282" r="26" fill="var(--paper)"/>
+              <path d="M407 66v24m-12-12h24m35 91v24m-12-12h24m-59 89v24m-12-12h24"/>
+            </g>
+            <text x="40" y="327" class="art-label">HOLD IT CLOSE</text><text x="327" y="327" class="art-label">OPEN IT UP</text>
+          </svg>
+          <p class="art-caption">One historical analogy.<br>Two ways to frame the next decision.</p>
+        </div>
+      </div>
+      <div class="intro-grid section-rule">
+        <div><p class="eyebrow">A LOCKED ROOM OF GOLD</p><h2>First, a little history.</h2></div>
+        <div class="prose"><p data-rich>Picture a king's treasury. In this simplified account of [[mercantilism]], many European governments measured wealth in [[bullion]] and treated one nation's gain as another's loss. They guarded trade routes, taxed imports and tried to keep wealth at home.</p><p>Over time, a different understanding of wealth creation gained ground: production, exchange and new demand could expand what was available. This is a model for the comparison, not a complete history of early modern economics.</p><p class="small-note">Historical primer written for the demo. The analogy's limits matter throughout this guide.</p></div>
+      </div>
+      <div class="analogy-block">
+        <div><p class="eyebrow">THE SAME QUESTION, A NEW RESOURCE</p><h2>What if we treat<br>intelligence like gold?</h2><p data-rich>Venkatesh Rao calls this [[cognitive mercantilism|cognitive-mercantilism]]. Nathaniel Whittemore extends the discussion to demand: easier access to expertise may create uses we could not previously pursue.</p></div>
+        <figure class="feature-quote"><span class="excerpt-kind">Quotation</span><blockquote>“The cognitive mercantilist wants to hoard intelligence and its products like bullion”</blockquote><figcaption><a href="https://contraptions.venkateshrao.com/p/cognitive-mercantilism" target="_blank" rel="noopener noreferrer">Venkatesh Rao, 2026 <span class="sr-only">(opens in a new tab)</span> ↗</a></figcaption></figure>
+      </div>
+      <div class="section-heading"><div><p class="eyebrow">TWO PERSPECTIVES</p><h2>What changes when the resource changes?</h2></div><div class="segmented" role="group" aria-label="Comparison era"><button data-era="then" aria-pressed="true">Then: gold and silver</button><button data-era="now" aria-pressed="false">Now: intelligence and AI</button></div></div>
+      <p id="primer-status" class="sr-only" aria-live="polite"></p>
+      <div id="primer"></div>
+      <p class="small-note">This demo's framing, not a source. These are contrasting models to examine, not a diagnosis of any person or policy.</p>
+      <aside class="learning-note"><strong>Access is an opportunity. Learning is a separate question.</strong><p>AI output does not establish a learner's knowledge or judgment. Specify which thinking students must practice and demonstrate themselves.</p></aside>
+      <div class="section-rule guardrail-intro"><div><p class="eyebrow">FROM THE ANALOGY TO THE CLASSROOM</p><h2>Not every limit<br>is hoarding.</h2><p>A policy can protect people and still distribute access unequally. Examine both.</p></div><div><dl class="definition-pair"><div><dt class="access-text">⌑ Guardrail</dt><dd>A limit with a named protective purpose, a specific harm and a proportionate scope.</dd></div><div><dt class="scarcity-text">▣ Gate</dt><dd>A status-based limit whose protective rationale has not been established.</dd></div></dl><p class="small-note">Original workshop framing. The questions support judgment; they do not validate a policy.</p></div></div>
+      <div class="view-end"><span>Next / Four beliefs, then and now</span><a class="button primary" href="#then-and-now">Then &amp; now <span aria-hidden="true">→</span></a></div>
+    </section>
+    <section id="then-and-now" class="view" aria-labelledby="beliefs-heading" hidden>
+      <div class="view-heading"><p class="eyebrow">02 / THE COMPARISON</p><h1 id="beliefs-heading" tabindex="-1">Old beliefs.<br><em>New resource.</em></h1><p class="deck">Four assumptions about wealth, revisited as assumptions about intelligence. Select one to examine the comparison.</p></div>
+      <div id="belief-buttons" class="belief-buttons" role="group" aria-label="Select a belief"></div>
+      <div id="belief-panel"></div>
+      <div id="prediction-panel" class="prediction section-rule"></div>
+      <div id="transition-panel" class="transition-panel"></div>
+      <div class="view-end"><a class="text-link" href="#start">← Start here</a><a class="button primary" href="#sorter">Try the school scenarios <span aria-hidden="true">→</span></a></div>
+    </section>
+    <section id="sorter" class="view" aria-labelledby="sorter-heading" hidden>
+      <div class="view-heading"><p class="eyebrow">03 / PUT IT TO WORK</p><h1 id="sorter-heading" tabindex="-1">Guardrail<br>or <em>gate?</em></h1><p class="deck">Name the purpose. Examine the harm. Test the scope.</p><p class="small-note">Nine fictional scenarios. A presenter records one negotiated room call. Nothing is collected or sent; choices reset when the page reloads.</p></div>
+      <div class="sorter-layout"><aside class="scenario-sidebar"><label for="scenario-select" class="eyebrow">CHOOSE A SCENARIO</label><select id="scenario-select"></select><p id="scenario-progress" class="small-note" aria-live="polite"></p><ol id="scenario-list" class="scenario-list"></ol></aside><div id="scenario-panel"></div></div>
+      <div class="view-end"><a class="text-link" href="#then-and-now">← Then &amp; now</a><a class="text-link" href="#sources">Keep the caveats in view →</a></div>
+    </section>
+    <section id="sources" class="view" aria-labelledby="sources-heading" hidden>
+      <div class="view-heading"><p class="eyebrow">04 / EVIDENCE &amp; LIMITS</p><h1 id="sources-heading" tabindex="-1">An analogy,<br><em>with limits.</em></h1><p class="deck">The qualifications belong beside the argument. They are part of the workshop, not fine print.</p></div>
+      <div id="caveat-list" class="caveat-list"></div>
+      <div class="section-heading section-rule"><div><p class="eyebrow">FOLLOW THE SOURCES</p><h2>What was checked?</h2></div><p class="small-note">Source check: November 11, 2026.<br>Metadata verification does not verify an interpretation.</p></div>
+      <div class="notice"><strong>Quotation and audio status</strong><p>Quotation wording follows the supplied brief, including excerpt-initial capitalization. Selected podcast excerpts match the published transcript. The fixed-demand excerpt is corrected to its 00:08 block. Audio has not been checked, so these are transcript-block locators, not precise audio timings.</p></div>
+      <div id="source-list"></div>
+      <p class="small-note">References adapted from the supplied brief. <a href="SOURCE_CHECKS.md">Detailed source-check record</a> · <a href="IMPLEMENTATION.md">Content changes made for this page</a></p>
+      <div class="view-end"><a class="text-link" href="#sorter">← School scenarios</a><a class="button primary" href="#glossary">Open the glossary <span aria-hidden="true">→</span></a></div>
+    </section>
+    <section id="glossary" class="view" aria-labelledby="glossary-heading" hidden>
+      <div class="view-heading"><p class="eyebrow">05 / A SHARED VOCABULARY</p><h1 id="glossary-heading" tabindex="-1">Keep the terms<br><em>within reach.</em></h1><p class="deck">Working definitions for this workshop. Underlined terms throughout the guide also open a definition in place.</p></div>
+      <div class="glossary-search"><label for="glossary-search">Find a term</label><input id="glossary-search" type="search" placeholder="Try privacy, friction or access" autocomplete="off"><p id="glossary-count" class="small-note" aria-live="polite"></p></div>
+      <dl id="glossary-list" class="glossary-list"></dl><p id="glossary-empty" hidden>No matching terms. Try another word.</p>
+      <div class="view-end"><a class="text-link" href="#sources">← Sources &amp; caveats</a><a class="button primary" href="#sorter">Return to the discussion <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap"><div><strong>Scarcity or Access?</strong><p>Micah J. Miner · A discussion aid for educators</p></div><p>Illustrative scenarios. Human judgment.<br>No tracking or response collection.</p><div><a href="https://github.com/minerclass/cognitive-mercantilism">Source &amp; concept ↗</a><a href="downloads/Scarcity-or-Access-offline.zip" download>Download offline copy ↓</a><span>Original material: <a href="LICENSE">MIT License</a></span></div></div></footer>
+</body>
+</html>
